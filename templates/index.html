@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+  
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Titillium Web:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space Mono:wght@400&display=swap"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+    <div class="intelli">Intelli</div>
+    <img class="ellipse-icon" alt="" src="{{url_for('static', filename='images/white.svg')}}" />
+    <img class="ellipse-9" alt="" src="{{url_for('static', filename='images/ellipse-9.svg')}}" />
+    <img class="group-24" alt="" src="{{url_for('static', filename='images/group-24.svg')}}" />
+    <div class="intelli-review-solutions vector-parent text-center img-heading">Welcome toIntelli Review Solutions
+    <div class="background-image" style="z-index: -1;"><img src="{{url_for('static', filename='images/rectangle-16.svg')}}"/></div>  
+    </div>
+
+
+    <style>
+      .img-heading {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  bottom: -10%;
+  right: 7%;
+
+  /* height: 50px; */
+  /* background-image: url("{{url_for('static', filename='images/rectangle-16.svg')}}");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+intelli-review-solutions {
+  position: relative;
+  z-index: 2; /* Ensure the text is above the background image */
+}
+    </style>
+    
+
+ 
+
+    <div class="h4 text-center mt-5">
+      Maximize Your Potential: Transform Performance Reviews into Success Roadmaps
+    </div>
+
+    <div class="row align-items-center text-center">
+      <div class="mx-auto col-md-6">
+        <p class="my-3 text-center">IntelliReview Solutions empowers you to convert performance reviews into tailored insights for professional growth. Upload your review, answer questions about your goals, and receive a customized report featuring:</p>
+
+      </div>
+    </div>
+
+    <ul class="nav d-flex justify-content-between container my-5">
+      <li class="tab-btn">Details</li>
+      <li class="tab-btn">Career Oppurtunities</li>
+      <li class="tab-btn">Recommended Courses</li>
+      <li class="tab-btn">Action Items</li>
+      <li class="tab-btn">optimizer</li>
+
+
+
+
+    </ul>
+
+    <h2 class="text-center my-4">Please attach the PDF file</h2>
+
+    <form action = "" method = "POST" enctype = "multipart/form-data">
+
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="form-group row">
+          <label for="goals" class="col-sm-4 col-form-label" style="font-size: xx-small;">What are your top three professional goals for the next year? (e.g., improving a specific skill, getting a promotion, or expanding your professional network)</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" name="goals" id="goals" placeholder="Professional Goals">
+          </div>
+        </div>
+        <div class="form-group row mt-2">
+          <label for="obstacles" class="col-sm-4 col-form-label" style="font-size: xx-small;">What obstacles or challenges do you anticipate facing as you work towards these goals? (e.g., lack of time, limited resources, or balancing work and personal life)</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" name="obs" id="obstacles" placeholder="what could be the obstacles">
+          </div>
+        </div>
+
+        <div class="form-group row mt-2">
+          <label for="skills" class="col-sm-4 col-form-label" style="font-size: xx-small;">Are there any specific areas or skills you'd like to focus on to support your professional growth? (e.g., leadership, communication, or technical expertise)</label>
+          <div class="col-sm-8">
+            <input type="text" class="form-control" id="skills" name="skill" placeholder="What are your skills">
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4"> 
+   
+
+
+      <div class="file-drop-area card w-50 mx-auto">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20%" fill="currentColor" class="bi bi-upload mx-auto" viewBox="0 0 16 16">
+          <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+          <path d="M7.646 1.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 2.707V11.5a.5.5 0 0 1-1 0V2.707L5.354 4.854a.5.5 0 1 1-.708-.708l3-3z"/>
+        </svg>
+        <span class="choose-file-button">Choose files</span>
+        <span class="file-message">or drag and drop files here</span>
+        <input class="file-input" type="file" name="file" id="file">
+      </div>
+      </div>
+    </div>
+
+    <input type="submit" class="btn btn-primary mx-auto d-block submit-btn" value="submit">
+    </form>
+
+
+    <div class="container mt-5">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Intelli</span>
+        </div>
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+          <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    </div>
+
+  </body>
+  </html>

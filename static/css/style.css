@@ -1,0 +1,470 @@
+body{
+    color: #fff!important;
+    background-color: rgb(30, 30, 30)!important;
+  }
+
+  a:link {
+    text-decoration: none!important;
+}
+
+a:visited {
+    text-decoration: none!important;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+a:active {
+    text-decoration: none!important;
+}
+  
+  .tab-btn {
+  
+    font-size: 20px;
+    color: #ff5722!important;;
+  }
+  .group-child {
+      position: relative;
+      /* top: 38px; */
+      left: 100%;
+      /* width: 322px;
+      height: 43px; */
+    }
+  
+    .intelli {
+     
+      margin-top: 51px;
+      margin-left: 40px;
+      font-size: 24px;
+      letter-spacing: 0.02em;
+      font-family: "Space Mono";
+      color: #ff5722!important;
+    }
+    .intelli-review-solutions {
+  
+      letter-spacing: 0.02em;
+      line-height: 76px;
+      font-weight: 600;
+    }
+    .vector-parent {
+      
+      margin-top: 100px;
+    
+      font-size: 64px;
+    }
+  /* the groups */
+  
+    .group-div,
+    .line-icon {
+  
+      margin-top: 43.11px;
+      margin-left: 120px;
+      width: 201px;
+      height: 5.77px;
+    }
+    .group-div {
+      margin-top: 275px;
+      margin-left: 131px;
+      width: 1250px;
+      height: 46px;
+      color: #afafaf;
+    }
+  
+    .details-parent {
+  
+      width: 1250px;
+      height: 31px;
+    }
+    
+    
+    .home,
+    .menu,
+    .menu1,
+    .menu2 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      letter-spacing: 0.02em;
+      line-height: 20px;
+      font-weight: 600;
+      opacity: 0.5;
+    }
+    .menu,
+    .menu1,
+    .menu2 {
+      left: 119px;
+    }
+    .menu1,
+    .menu2 {
+      left: 236px;
+    }
+    .menu2 {
+      left: 353px;
+    }
+    .home-parent {
+      position: absolute;
+      top: 59px;
+      left: 1070px;
+      width: 404px;
+      height: 20px;
+      text-align: left;
+    }
+    .group-item {
+      border-radius: 50px;
+      background-color: #272138;
+      width: 337px;
+      height: 46px;
+    }
+    .group-item,
+    .rectangle-wrapper,
+    .search {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    .rectangle-wrapper {
+      width: 337px;
+      height: 46px;
+    }
+    .search {
+      letter-spacing: 0.02em;
+      line-height: 34px;
+    }
+    .icons8-search-96px-1-1 {
+      position: absolute;
+      top: 7px;
+      left: 267px;
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+      opacity: 0.5;
+    }
+    .group-parent,
+    .search-parent {
+      position: absolute;
+      top: 6px;
+      left: 25px;
+      width: 287px;
+      height: 34px;
+    }
+    .group-parent {
+      top: 46px;
+      left: 174px;
+      width: 337px;
+      height: 46px;
+      text-align: left;
+      font-size: 16px;
+      color: #7a7a7a;
+      font-family: Nunito;
+    }
+    .group-inner {
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-radius: 10px;
+      width: 175px;
+      height: 212px;
+      object-fit: cover;
+    }
+    .div,
+    .john-smith {
+      position: absolute;
+      top: 0;
+      left: 0;
+      letter-spacing: 0.02em;
+      line-height: 20px;
+      font-weight: 600;
+    }
+  
+    .icons8-star-96px-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 20px;
+      height: 20px;
+      object-fit: cover;
+    }
+    .john-smith-parent,
+    .parent {
+      position: absolute;
+      top: 0;
+      left: 121px;
+      width: 54px;
+      height: 20px;
+    }
+    .john-smith-parent {
+      left: 0;
+      width: 175px;
+    }
+    .software-engineer {
+      position: absolute;
+      top: 28px;
+      left: 0;
+      font-size: 15px;
+      letter-spacing: 0.02em;
+      line-height: 20px;
+      color: #afafaf;
+    }
+    .group-container,
+    .rectangle-parent {
+      position: absolute;
+      top: 232px;
+      left: 0;
+      width: 175px;
+      height: 48px;
+    }
+    .rectangle-parent {
+  
+      height: 280px;
+      text-align: justify;
+      font-size: 18px;
+    }
+    .career-oppurtunites,
+    .lorem-ipsum-is {
+  
+      letter-spacing: 0.02em;
+      line-height: 31px;
+    }
+    .career-oppurtunites {
+   
+      left: 365.5px;
+      font-weight: 600;
+    }
+    .lorem-ipsum-is {
+      top: 71px;
+      left: 0;
+      font-size: 20px;
+      color: #afafaf;
+      display: inline-block;
+      width: 1092px;
+    }
+    .career-oppurtunites-parent {
+      position: absolute;
+      top: 387px;
+      left: 210px;
+      width: 1092px;
+      height: 319px;
+      font-size: 40px;
+    }
+    .page-2-child {
+      position: absolute;
+      top: 806px;
+      left: 1390px;
+      width: 122px;
+      height: 176px;
+    }
+    .page-2-inner,
+    .page-2-item {
+      position: absolute;
+      top: 619px;
+      left: 26px;
+      width: 14px;
+      height: 14px;
+    }
+    .page-2-inner {
+      top: 574px;
+      left: 1330px;
+    }
+    .ellipse-icon,
+    .group-icon,
+    .page-2-child1 {
+      position: absolute;
+      top: 909px;
+      left: 250px;
+      width: 8px;
+      height: 8px;
+    }
+
+    .ellipse-icon{
+      position: absolute;
+      top: 90%;
+      left: 5%;
+      width: 8px;
+      height: 8px;
+    }
+
+    .ellipse-9{
+      position: absolute;
+      top: 90%;
+      left: 95%;
+      width: 16px;
+      height: 16px;      
+    }
+
+    .group-24{
+      position: absolute;
+      bottom:-60%;
+      right: 0%;
+      width: 128px;
+      height: 128px;        
+    }
+    .group-icon,
+    .page-2-child1 {
+      top: 861px;
+      left: 99px;
+    }
+    .group-icon {
+      top: 547px;
+      left: 163px;
+      width: 1210.28px;
+      height: 300px;
+      opacity: 0.2;
+    }
+  
+    .career-oppurtunities,
+    .details {
+      position: absolute;
+      top: 0;
+      left: 0;
+      letter-spacing: 0.02em;
+      line-height: 31px;
+    }
+    .career-oppurtunities {
+      left: 118px;
+      font-weight: 600;
+      color: #ff5722;
+    }
+    .action-items,
+    .optimizer,
+    .personal-skills,
+    .recommended-courses,
+    .soft-skills {
+      position: absolute;
+      top: 0;
+      left: 362px;
+      letter-spacing: 0.02em;
+      line-height: 31px;
+    }
+    .action-items,
+    .optimizer,
+    .personal-skills,
+    .soft-skills {
+      left: 628px;
+    }
+    .action-items,
+    .personal-skills,
+    .soft-skills {
+      left: 806px;
+    }
+    .personal-skills,
+    .soft-skills {
+      left: 976px;
+    }
+    .personal-skills {
+      left: 1122px;
+    }
+  
+   
+    .page-2 {
+      position: relative;
+      background-color: #161123;
+      width: 100%;
+      height: 982px;
+      overflow: hidden;
+      text-align: center;
+      font-size: 20px;
+      color: #fff;
+      font-family: "Titillium Web";
+    }
+    
+  
+    
+  
+    
+    .file-drop-area {
+      position: relative;
+      display: flex;
+      align-items: center;
+      width: 450px;
+      max-width: 100%;
+      padding: 25px;
+      border: 1px dashed rgba(255, 255, 255, 0.4);
+      border-radius: 3px;
+      transition: 0.2s;
+     
+    }
+    
+    .choose-file-button {
+      flex-shrink: 0;
+      background-color: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 3px;
+      padding: 8px 15px;
+      margin-right: 10px;
+      font-size: 12px;
+      text-transform: uppercase;
+    }
+    
+    .file-message {
+      font-size: small;
+      font-weight: 300;
+      line-height: 1.4;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    
+    .file-input {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      cursor: pointer;
+      opacity: 0;
+      
+    }
+    
+    .mt-100{
+        margin-top:100px;
+    }
+  
+    .card{
+      background-color:#272138!important;
+    }
+
+    .submit-btn{
+      border-radius: 50px!important;
+      background-color: #ff5722!important;
+      width: 200px;
+      height: 50px;
+    }
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100vh;
+      background: rgba(0,0,0,.8);
+      z-index: 999;
+      opacity: 1;
+      transition: all 0.5s;
+  }
+  
+  /*Spinner Styles*/
+  .lds-dual-ring {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+  }
+  .lds-dual-ring:after {
+      content: " ";
+      display: block;
+      width: 64px;
+      height: 64px;
+      margin: 5% auto;
+      border-radius: 50%;
+      border: 6px solid #fff;
+      border-color: #fff transparent #fff transparent;
+      animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+      0% {
+          transform: rotate(0deg);
+      }
+      100% {
+          transform: rotate(360deg);
+      }
+  }

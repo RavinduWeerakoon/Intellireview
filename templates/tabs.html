@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Titillium Web:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Space Mono:wght@400&display=swap"
+    />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+  <body>
+    <script>
+      var details =`{{details}}`;
+    </script>
+
+<style>
+  .overlay{
+      display: none;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      background: rgba(30,30,30,0.8) url("/images/loader.gif") center no-repeat;
+  }
+
+  
+  body.loading{
+      overflow: hidden;   
+  }
+  
+  body.loading .overlay{
+      display: block;
+  }
+</style>
+
+    <div class="container-fluid">
+    <div class="intelli-review-solutions vector-parent text-center img-heading">Welcome toIntelli Review Solutions
+    <div class="background-image" style="z-index: -1;"><img src="{{url_for('static', filename='images/rectangle-16.svg')}}"/></div>  
+    </div>
+    <img class="ellipse-icon" alt="" src="{{url_for('static', filename='images/white.svg')}}" />
+    <img class="ellipse-9" alt="" src="{{url_for('static', filename='images/ellipse-9.svg')}}" />
+    <img class="group-24" alt="" src="{{url_for('static', filename='images/group-24.svg')}}" />
+
+    <style>
+      .img-heading {
+  position: relative;
+}
+
+.background-image {
+  position: absolute;
+  bottom: -10%;
+  right: 7%;
+
+  /* height: 50px; */
+  /* background-image: url("{{url_for('static', filename='images/rectangle-16.svg')}}");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; */
+}
+
+intelli-review-solutions {
+  position: relative;
+  z-index: 2; /* Ensure the text is above the background image */
+}
+    </style>
+    
+ 
+
+    <div class="h4 text-center mt-5">
+      Maximize Your Potential: Transform Performance Reviews into Success Roadmaps
+    </div>
+
+    <div class="row align-items-center text-center">
+      <div class="mx-auto col-md-6">
+        <p class="my-3 text-center">IntelliReview Solutions empowers you to convert performance reviews into tailored insights for professional growth. Upload your review, answer questions about your goals, and receive a customized report featuring:</p>
+
+      </div>
+    </div>
+    <div class="tabs">
+    <ul class="nav d-flex justify-content-between container my-5 tabs-list">
+      <li class="tab-btn active-tab"><a href="#tab1">Details</a></li>
+      <li class="tab-btn"><a href="#tab2">Career Oppurtunities</a></li>
+      <li class="tab-btn"><a href="#tab3">Recommended Courses</a></li>
+      <li class="tab-btn"><a href="#tab4">Action Items</a></li>
+      <li class="tab-btn"><a href="#tab5">optimizer</a></li>
+    </ul>
+    
+    <div class="text-center">
+      <div id="tab1" class="tab active">
+
+      </div>
+      <div id="tab2" class="tab">
+      </div>
+      <div id="tab3" class="tab">
+      </div>
+      <div id="tab4" class="tab">
+      </div>
+      <div id="tab4" class="tab">
+      </div>
+      <div id="tab5" class="tab">
+    </div>
+    </div>
+    </div>
+
+</ul>
+</div>
+<div id="loader" class="lds-dual-ring display-none overlay"></div>
+
+<div class="container mt-5">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">&copy; 2023 Intelli</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"/></svg></a></li>
+      <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"/></svg></a></li>
+    </ul>
+  </footer>
+</div>
+
+<style>
+    .active{
+        display: block !important;
+
+    }
+
+    .active-tab{
+      color: #ff5722;
+      padding-bottom: 6px;
+      border-bottom:3px solid #ff5722;
+    }
+</style>
+<script>
+
+function isEmpty( el ){
+      return !$.trim(el.html())
+  }
+
+$(document).ready(function(){
+
+    function call_api(url){
+
+
+  
+      $.ajax({
+      url: '/'+ url.slice(1),
+      method: "POST",
+      data: {
+        details: details
+      },
+      beforeSend: function(){
+        $("body").addClass("loading"); 
+    },
+      success: function(response) {
+        // Handle the successful response from Flask
+        $("body").removeClass("loading"); 
+        $(url).html(response);
+      },
+      error: function(error) {
+        // Handle any errors that occur during the AJAX request
+        console.error("Error: ", error);
+  }
+
+
+});
+
+// $(document).on({
+//     ajaxStart: function(){
+//         $("body").addClass("loading"); 
+//     },
+//     ajaxStop: function(){ 
+//         $("body").removeClass("loading"); 
+//     }    
+// });
+
+    }
+    
+    $(".tabs-list li a").click(function(e){
+       e.preventDefault();
+    });
+  
+    $(".tabs-list li").click(function(){
+      console.log(details);
+       var tabid = $(this).find("a").attr("href");
+       var current =  $('.active-tab');
+       current.removeClass("active-tab");
+       $(this).addClass('active-tab')
+       if( isEmpty($(tabid)) ){
+          call_api(tabid);
+       }
+       $(".tabs-list li,.tabs div.tab").removeClass("active");   // removing active class from tab
+  
+       $(".tab").hide();   // hiding open tab
+       $(tabid).show();    // show tab
+       $(this).addClass("active"); //  adding active class to clicked tab
+  
+    });
+  
+  });
+
+
+  $(document).ready(function() {
+  // Execute this code after the page has finished loading
+  
+  // Make an AJAX request to the Flask view function
+  $.ajax({
+    url: '/details',  // Relative path to the Flask view function
+
+    type: 'GET',
+    success: function(data) {
+      // This function will be executed when the request is successful
+      
+      // Load the received data into the 'tag1' div
+      $("body").removeClass("loading"); 
+      $('#tab1').html(data);
+    },
+    error: function() {
+      // This function will be executed if there's an error in the request
+      console.log('Error occurred while requesting data.');
+    },
+
+    beforeSend: function(){
+        $("body").addClass("loading"); 
+    }
+
+  });
+
+  
+});
+
+
+
+
+</script>
+</body>
+</html>
